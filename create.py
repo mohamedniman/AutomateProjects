@@ -19,9 +19,9 @@ def create():
 #    else:
 #         os.mkdir(path, folderName)
    python_button = browser.find_element_by_xpath('//*[@id="login_field"]')
-   python_button.send_keys('mohamedniman')
+   python_button.send_keys('USERNAME')
    python_button = browser.find_element_by_xpath("//*[@id='password']")
-   python_button.send_keys('maamiza9785')
+   python_button.send_keys('PASSWORD')
    python_button = browser.find_element_by_xpath("//*[@id='login']/form/div[4]/input[9]")
    python_button.click()
    browser.get('https://github.com/new')
